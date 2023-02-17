@@ -19,7 +19,7 @@ import { NavigationContainer } from '@react-navigation/native';
 const stack = createNativeStackNavigator();
 
 
-export default function App() {
+const App=()=> {
   return (
     <NavigationContainer> 
     <stack.Navigator>
@@ -45,3 +45,4 @@ export default function App() {
 
   );
 }
+export default App
